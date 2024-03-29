@@ -1,0 +1,294 @@
+.body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.post-container {
+  display: flex;
+
+  height: 1000px;
+  width: 1200px;
+  background-color: #191919;
+  border-radius: 20px;
+}
+
+.post-img {
+  height: 1000px;
+  width: 800px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding-left: 10px;
+
+  height: 100%;
+}
+
+.post-upper-container {
+  height: fit-content;
+  width: 380px;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 713px;
+  width: 380px;
+
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-width: none;
+  scrollbar-color: #191919 #333333;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* border: solid 1px red; */
+  width: fit-content;
+  height: 80px;
+}
+
+.profile-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.user-profile-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 40px;
+}
+
+.user-profile-text p {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.user-profile-text p:nth-child(2) {
+  color: #adadad;
+}
+
+.caption-profile-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+
+.user-caption {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  /* border: solid 1px pink; */
+  width: fit-content;
+  height: fit-content;
+}
+
+.user-caption-text {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.comment-list {
+  width: 380px;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+  /* border: solid 1px blue; */
+  width: fit-content;
+  height: fit-content;
+}
+
+.reply-button {
+  /* margin-left: 40px; */
+  /* display: none; */
+
+  color: #adadad;
+}
+
+.replies-list-item {
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  /* flex-wrap: wrap; */
+
+  list-style: none;
+
+  /* border: solid 1px blue; */
+  /* margin-left: 40px; */
+  width: 100%;
+  height: fit-content;
+}
+
+.comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+
+  /* border: solid 1px blue; */
+  width: 380px;
+  height: fit-content;
+}
+
+.replies-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  list-style: none;
+
+  /* border: solid 1px blue; */
+  width: 100%;
+  height: fit-content;
+}
+
+.comment-text {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+  width: 100%;
+
+  gap: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.comment-like-button {
+  fill: #191919;
+
+  margin-top: 14px;
+  /* margin-right: 14px; */
+  height: 20px;
+  width: 20px;
+}
+
+.replies-text {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
+
+.text-not-bold {
+  font-weight: 400;
+  color: #e2e2e2;
+}
+
+.lower-container {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.post-data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  border-top: solid rgb(85, 85, 85) 1px;
+  width: 380px;
+  height: 50px;
+}
+
+.post-data svg {
+  padding-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.number-of-likes {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.date-of-post {
+  margin-top: 0;
+}
+
+.add-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  border-top: solid rgb(85, 85, 85) 1px;
+  width: 380px;
+  height: 50px;
+}
+
+.add-comment svg {
+  height: 30px;
+  width: 30px;
+
+  color: #adadad;
+}
+
+.add-comment input {
+  height: 50%;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  background-color: #535353;
+  color: white;
+  font-family: roboto;
+}
+
+.comment-input:focus {
+  outline: 2px solid #00bfff; /* Combines color, style, and width */
+}
+
+.add-comment p {
+  color: #00bfff;
+}
+
+.add-comment p {
+  padding-right: 10px;
+}
+
+.date-of-post {
+  color: #adadad;
+}
