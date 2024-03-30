@@ -303,7 +303,6 @@
   color: #adadad;
 }
 
-/* Media query for small desktop screens */
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .post-container {
     display: flex;
@@ -312,11 +311,10 @@
   }
 
   .warning-message {
-    display: none; /* Hide the warning message */
+    display: none;
   }
 }
 
-/* Media query for medium desktop screens */
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
   .post-container {
     display: flex;
@@ -325,11 +323,10 @@
   }
 
   .warning-message {
-    display: none; /* Hide the warning message */
+    display: none;
   }
 }
 
-/* Media query for large desktop screens */
 @media screen and (min-width: 1441px) {
   .post-container {
     display: flex;
@@ -338,6 +335,6 @@
   }
 
   .warning-message {
-    display: none; /* Hide the warning message */
+    display: none;
   }
 }
