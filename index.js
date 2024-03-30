@@ -1,5 +1,8 @@
 import { faker } from 'https://esm.sh/@faker-js/faker';
 
+// TODO: Make sure all functions only do one thing
+// TODO: Optional: Make read the clean code JS file and apply all principles to this file
+
 const postImage = grabEl('.post-img');
 const userProfilePic = grabEl('.profile-pic');
 const captionProfilePic = grabEl('.caption-profile-pic');
