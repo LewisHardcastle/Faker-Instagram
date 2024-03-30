@@ -2,6 +2,7 @@ import { faker } from 'https://esm.sh/@faker-js/faker';
 
 // TODO: Make sure all functions only do one thing
 // TODO: Optional: Read the clean code JS file and apply all principles to this file
+// TODO: Organize CSS attributes, postion at the top, styling at the bottom
 
 const postImage = grabEl('.post-img');
 const userProfilePic = grabEl('.profile-pic');
