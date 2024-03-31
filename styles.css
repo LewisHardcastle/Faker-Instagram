@@ -276,7 +276,7 @@
   color: #adadad;
 }
 
-@media screen and (min-height: 420px) {
+@media screen and (min-height: 520px) {
   .post-container {
     display: flex;
     transform: scale(0.5);
