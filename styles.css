@@ -276,6 +276,18 @@
   color: #adadad;
 }
 
+@media screen and (min-height: 420px) {
+  .post-container {
+    display: flex;
+    transform: scale(0.5);
+    transform-origin: top center;
+  }
+
+  .warning-message {
+    display: none;
+  }
+}
+
 @media screen and (min-height: 820px) {
   .post-container {
     display: flex;
